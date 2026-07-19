@@ -1,8 +1,0 @@
-{
-    "targets": [
-        "snow_block"
-    ],
-    "append": [
-        "block/snow/snow_overlay"
-    ]
-}
