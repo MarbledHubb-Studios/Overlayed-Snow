@@ -1,0 +1,36 @@
+{
+	"loader": "fusion:model",
+	"type": "connecting",
+	"textures": {
+		"particle": "overlayed_snow:block/snow_overlay",
+		"snow_overlay": "overlayed_snow:block/snow_overlay"
+	},
+	"connections": [
+		{"type": "match_block", "block": "snow"},
+		{"type": "match_block", "block": "snow_block"},
+		{"type": "match_block", "block": "powder_snow"}
+
+	],
+	"elements": [
+		{
+			"from": [-0.01, 0, -0.01],
+			"to": [16.02, 16, 16.02],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#snow_overlay", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#snow_overlay", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#snow_overlay", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#snow_overlay", "cullface": "west"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#snow_overlay", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#snow_overlay", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#snow_overlay", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#snow_overlay", "cullface": "west"}
+			}
+		}
+	]
+}
